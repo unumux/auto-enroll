@@ -1,0 +1,17 @@
+&-container {
+    width: 100%;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 1650px;
+    @include contain();
+
+    @media screen and (min-width: 768px) {
+        display: flex;
+        align-items: center;
+    }
+
+    @media screen and (min-width: 960px) {
+        padding: 20px 50px;
+        flex: 1 1 auto; 
+    }
+}

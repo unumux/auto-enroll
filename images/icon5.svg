@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="landing-page" transform="translate(-440.000000, -3092.000000)">
+            <g id="When-you-enroll...Timeline" transform="translate(0.000000, 2728.000000)">
+                <g id="1.5-Weeks-before" transform="translate(440.000000, 364.000000)">
+                    <g id="icon">
+                        <circle id="Oval-3" fill="#D66000" cx="40" cy="40" r="40"></circle>
+                        <g id="Page-1" transform="translate(19.000000, 27.000000)" fill="#FFFFFF">
+                            <path d="M21.3027523,16.046875 C21.0392294,16.046875 20.7753119,15.98675 20.5315138,15.8656875 L0,5.67125 L0,23.3857812 C0,24.8235 1.14245872,26 2.53857798,26 L40.461422,26 C41.8575413,26 43,24.8235 43,23.3857812 L43,5.27271875 L22.0858257,15.8591875 C21.8388716,15.9843125 21.5710092,16.046875 21.3027523,16.046875" id="Fill-1"></path>
+                            <path d="M21.2952569,12.1855094 L40.4061927,2.51188438 L42.6851927,1.35894688 C42.2524312,0.550509375 41.4164954,4.06250001e-05 40.461422,4.06250001e-05 L2.53857798,4.06250001e-05 C1.45647706,4.06250001e-05 0.529807339,0.707728125 0.166082569,1.69450938 L3.15675229,3.17935313 L21.2952569,12.1855094 Z" id="Fill-3"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

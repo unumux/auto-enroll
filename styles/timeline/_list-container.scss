@@ -1,0 +1,18 @@
+&__list-container {
+    border-left: 4px solid $pumpkin;
+    margin-left: 40px;
+    margin-top: 10px;
+    padding: 20px 0px 20px 55px;
+
+    @media all and (min-width: 768px) {
+        width: 400px;
+    }
+}
+
+.border-green {
+    border-left: 4px solid $leaf;
+}
+
+.border-blue {
+    border-left: 4px solid $sea-green;
+}

@@ -1,0 +1,17 @@
+&__content {
+    font-size: 23px;
+    letter-spacing: 1px;
+    color: #fff;
+    margin-top: 0;
+    font-weight: 300;
+    line-height: 3rem;
+    
+    @media screen and (min-width: 768px) {
+        font-size: 36px;
+        padding-top: 30px;
+    }
+
+    @media screen and (min-width: 1600px) {
+        font-size: 45px;
+    }
+}

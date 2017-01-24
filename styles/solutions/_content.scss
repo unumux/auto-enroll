@@ -1,0 +1,18 @@
+&__content {
+    text-align: center;
+    font-size: 20px;
+    line-height: 1.4;
+    color: $font-color-gray;
+    margin-top: 10px;
+
+    @media screen and (min-width: 768px) {
+        font-size: 25px;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+    @media all and (min-width: 1200px) {
+        padding-left: 250px;
+        padding-right: 250px;
+    }
+}

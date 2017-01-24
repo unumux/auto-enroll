@@ -1,0 +1,96 @@
+@mixin fillbar ($width, $color-primary, $color-secondary) {
+    position: relative;
+    display: block;
+    height: 5px;
+    border-radius: 3px;
+    background: $color-primary;
+    margin-top: 10px;
+    &::after {
+        position: absolute;
+        display: block;
+        width: 100% - $width;
+        right: 0;
+        top: 0;
+        content: '';
+        height: 5px;
+        border-radius: 0 3px 3px 0;
+        background: $color-secondary;
+    }
+}
+
+@mixin one-of-three() {
+    padding: 20px;
+    width: 100%;
+
+    @media screen and (min-width: 768px) {
+        width: 33.3333%;
+    }
+}
+
+@mixin subheading($font-size: 25px) {
+    line-height: 1.5;
+    letter-spacing: 1px;
+    text-align:center;
+    color: $orient;
+    text-transform: uppercase;
+    font-size: $font-size;
+}
+
+@mixin contain ($max-width: 1650px) {
+    margin: 0 auto;
+    max-width: $max-width;
+}
+
+@mixin circle($bg: #ffffff, $color: #42aeca, $percentage: 0) {
+
+    @if $percentage > 0 {
+        &::before,
+        &::after {
+            border-width: 0.5rem;
+        }
+    }
+
+    &::before {
+        border-color: $color $color $bg $bg;
+    }
+
+
+    &::after {
+        @if $percentage < 50 {
+            $degrees: $percentage * 3.6 + 45; // 45 extra degrees to rotate borders into place
+            border-color: $bg $bg transparent transparent;
+            transform: rotate(#{$degrees}deg);
+        } @else {
+            $degrees: $percentage * 3.6 - 135; // 180 - 45
+            border-color: $color $color transparent transparent;
+            transform: rotate(#{$degrees}deg);
+        }
+    }
+}
+
+@mixin circle-base() {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    height: 15rem;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem;
+    position: relative;
+    width: 15rem;
+
+    &::before,
+    &::after {
+        content: '';
+        border-width: 0.4rem;
+        border-style: solid;
+        border-radius: 50%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        transform: rotate(45deg);
+    }
+
+}

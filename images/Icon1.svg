@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="141px" height="132px" viewBox="0 0 141 132" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon1</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="landing-page" transform="translate(-271.000000, -2222.000000)">
+            <g id="See-how-it-worked" transform="translate(194.000000, 1824.000000)">
+                <g id="Infographic1" transform="translate(0.000000, 309.000000)">
+                    <g id="Icon1" transform="translate(81.000000, 92.000000)">
+                        <polyline id="Stroke-1" stroke="#F06F00" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" points="121.853 100.6879 48.128 100.6879 23.27 18.8719 0 18.8719"></polyline>
+                        <polygon id="Fill-3" fill="#F06F00" points="105.5933 0.9999 64.7403 8.7509 59.5423 21.0509 68.8853 30.5919 109.7373 22.8409"></polygon>
+                        <g id="Group-13" transform="translate(32.000000, 0.872000)">
+                            <polygon id="Stroke-4" stroke="#F06F00" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" points="73.5933 0.1279 32.7403 7.8789 27.5423 20.1789 36.8853 29.7199 77.7373 21.9689"></polygon>
+                            <g id="Group-8" transform="translate(0.000000, 45.000000)" fill="#F06F00">
+                                <path d="M0.3403,0 L99.0883,0 C102.7753,0 105.3273,4.142 104.0333,8.025 L97.6563,36.146 C96.8833,38.464 94.9133,40 92.7113,40 L12.6823,40 C12.5693,40 12.4693,39.919 12.4333,39.799 L0.3403,0 Z" id="Fill-6"></path>
+                            </g>
+                            <path d="M36,119 C36,123.971 31.971,128 27,128 C22.029,128 18,123.971 18,119 C18,114.029 22.029,110 27,110 C31.971,110 36,114.029 36,119" id="Fill-9" fill="#F06F00"></path>
+                            <path d="M84,119 C84,123.971 79.971,128 75,128 C70.029,128 66,123.971 66,119 C66,114.029 70.029,110 75,110 C79.971,110 84,114.029 84,119" id="Fill-11" fill="#F06F00"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

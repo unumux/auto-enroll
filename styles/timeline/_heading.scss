@@ -1,0 +1,15 @@
+
+@import '../utilities/vars';
+@import '../utilities/mixins';
+
+&__heading {
+    @include subheading();
+    padding-top: 20px;
+    text-align: left!important;
+  
+
+    @media screen and (min-width: 768px) {
+        font-size: 35px;
+        text-align: center!important;
+    }
+}

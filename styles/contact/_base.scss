@@ -1,0 +1,13 @@
+@mixin base() {
+    background-color: $background;
+    // height: 275px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+
+    @media screen and (min-width: 960px) {
+        padding: 50px;
+    }
+}

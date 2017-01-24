@@ -1,0 +1,14 @@
+@import 'base';
+
+.solutions {
+    @include base();
+    @import 'heading';
+    @import 'circle';
+    @import 'content';
+    @import 'container';
+    @import 'img-container';
+    @import 'subheading';
+    @import 'section';
+    @import 'para'; 
+    @import 'stat';  
+}

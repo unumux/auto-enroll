@@ -1,0 +1,22 @@
+
+
+&__circle {
+    @include circle-base;
+    @include circle();
+
+    &--warehouse {
+        @include circle-base;
+        @include circle(#f4d8c6, #D66000, 90);
+    }
+
+    &--manufacture {
+        @include circle-base;
+        @include circle(#d1e4d2,#469049, 83);
+    }
+
+    &--auto {
+        @include circle-base;
+        @include circle(rgba(5, 164, 174, 0.1), #048a90, 80);
+    }
+
+}
