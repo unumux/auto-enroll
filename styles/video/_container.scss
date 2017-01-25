@@ -1,8 +1,11 @@
 
 &__container {
 
+    padding-top: 3rem;
+
     @media all and (min-width: 768px) {
         // display: flex;
+        padding-top: 0;
     }
 
     @media all and (min-width: 1200px) {
