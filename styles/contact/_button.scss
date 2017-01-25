@@ -5,6 +5,7 @@
     width: 275px;
     cursor: pointer;
     border: none;
+    text-align: center;
 
     @media screen and (min-width: 768px) {
         width: 500px;
@@ -17,6 +18,7 @@
         width: 10rem;
         cursor: pointer;
         border: none;
+        margin-right: 20px;
 
         @media screen and (min-width: 768px) {
             width: 14rem;
