@@ -5,10 +5,11 @@
     background-size: cover;
     background-position: center 30%;
     height: 40%;
-    display: flex;
+    // display: flex;
     // justify-content: flex-start;
-    flex-direction: column;
+    // flex-direction: column;
     padding: 40px 20px;
+    text-align: center;
 
     @media screen and (min-width: 500px) {
         // background-image: url('../images/iStock_8293279_LARGE.jpg');
